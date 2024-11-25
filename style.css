@@ -14,9 +14,68 @@ p {
 
 .main-container {
   padding: 20px 40px;
+  display: flex;
 }
 
 .main-container > div {
   border: 1px solid #ccc;
   padding: 20px 40px;
+}
+
+.main-content {
+  flex: 3;
+  order: 2;
+}
+
+.left-sidebar {
+  flex: 1;
+  order: 1;
+}
+
+.right-sidebar {
+  flex: 1;
+  order: 3;
+}
+
+.gallery-container {
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.gallery-container > div {
+  flex-basis: 15%;
+  height: 150px;
+  background: #cecece;
+  padding: 20px 40px;
+  margin-bottom: 1rem;
+}
+
+.complex-container {
+  padding: 20px 40px;
+  display: flex;
+}
+
+.complex-container > div {
+  border: 1px solid green;
+}
+
+.content-1 {
+  flex: 1;
+}
+
+.right-side {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.content-2 {
+  flex: 1;
+  background: coral;
+}
+.content-3 {
+  flex: 1;
+  background: darkblue;
 }
