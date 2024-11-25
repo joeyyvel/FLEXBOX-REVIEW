@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  line-height: 1.9rem;
+}
+
+.main-container {
+  padding: 20px 40px;
+}
+
+.main-container > div {
+  border: 1px solid #ccc;
+  padding: 20px 40px;
+}
